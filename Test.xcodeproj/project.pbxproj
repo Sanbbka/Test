@@ -14,6 +14,8 @@
 		6E90C4611BBC22CA009CDEE5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E90C4601BBC22CA009CDEE5 /* Images.xcassets */; };
 		6E90C4641BBC22CA009CDEE5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E90C4621BBC22CA009CDEE5 /* LaunchScreen.xib */; };
 		6E90C4701BBC22CA009CDEE5 /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E90C46F1BBC22CA009CDEE5 /* TestTests.m */; };
+		6E90C47B1BBC24FE009CDEE5 /* Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E90C47A1BBC24FE009CDEE5 /* Date.m */; };
+		6E90C47E1BBC28AB009CDEE5 /* DateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E90C47D1BBC28AB009CDEE5 /* DateController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		6E90C4691BBC22CA009CDEE5 /* TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E90C46E1BBC22CA009CDEE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E90C46F1BBC22CA009CDEE5 /* TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTests.m; sourceTree = "<group>"; };
+		6E90C4791BBC24FE009CDEE5 /* Date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Date.h; sourceTree = "<group>"; };
+		6E90C47A1BBC24FE009CDEE5 /* Date.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Date.m; sourceTree = "<group>"; };
+		6E90C47C1BBC28AB009CDEE5 /* DateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateController.h; sourceTree = "<group>"; };
+		6E90C47D1BBC28AB009CDEE5 /* DateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				6E90C4581BBC22CA009CDEE5 /* AppDelegate.m */,
 				6E90C45A1BBC22CA009CDEE5 /* ViewController.h */,
 				6E90C45B1BBC22CA009CDEE5 /* ViewController.m */,
+				6E90C4791BBC24FE009CDEE5 /* Date.h */,
+				6E90C47A1BBC24FE009CDEE5 /* Date.m */,
+				6E90C47C1BBC28AB009CDEE5 /* DateController.h */,
+				6E90C47D1BBC28AB009CDEE5 /* DateController.m */,
 				6E90C45D1BBC22CA009CDEE5 /* Main.storyboard */,
 				6E90C4601BBC22CA009CDEE5 /* Images.xcassets */,
 				6E90C4621BBC22CA009CDEE5 /* LaunchScreen.xib */,
@@ -222,6 +232,8 @@
 				6E90C45C1BBC22CA009CDEE5 /* ViewController.m in Sources */,
 				6E90C4591BBC22CA009CDEE5 /* AppDelegate.m in Sources */,
 				6E90C4561BBC22CA009CDEE5 /* main.m in Sources */,
+				6E90C47B1BBC24FE009CDEE5 /* Date.m in Sources */,
+				6E90C47E1BBC28AB009CDEE5 /* DateController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
